@@ -3,6 +3,7 @@ import axios from "axios";
 import HeroImage from "../assets/hero.jpg";
 import ResidentList from "./ResidentList";
 import Pagination from "./Pagination";
+
 const planetImages = Array.from(
   { length: 9 },
   (_, i) => `/images/planet-0${i + 1}.png`

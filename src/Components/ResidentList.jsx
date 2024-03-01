@@ -16,7 +16,7 @@ const ResidentList = ({ residentsData }) => (
         {// eslint-disable-next-line react/prop-types
         residentsData.map((residentData) => (
           <li
-            className="flex flex-col text-xl sm:w-[400px] w-[300px] sm:h-[400px] h-auto mb-16 bg-white bg-opacity-20 opacity-100 p-8 rounded-lg text-white"
+            className="flex flex-col text-xl sm:w-[400px] w-[300px] sm:h-[400px] h-auto mb-16 bg-white bg-opacity-20 opacity-100 p-8 rounded-lg text-white transform transition-transform duration-500 delay-[index*100] translate-y-0 hover:translate-y-[-10px]"
             key={residentData.name}
           >
             <img
